@@ -1,4 +1,6 @@
-<p align="center"><a href="https://github.com/javiidoce/tfgDam" target="_blank"><img src="https://i.imgur.com/8TcOm6o.jpeg" width="400" alt="Logo"></a></p>
+<p align="center"><a href="https://github.com/javiidoce/tfgDam" target="_blank"><img src="https://i.imgur.com/8TcOm6o.jpeg" width="200" alt="Logo"></a></p>
+
+***
 
 # CoachHub
 
@@ -17,6 +19,72 @@ CoachHub es una aplicación web la cual trata de hacerle la vida más facil a lo
 <img src="https://camo.githubusercontent.com/4965c61569069e46775836d78ee63f6cc0d8bac40bb2a0e638fe682e5aa18a95/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6769746875622d69636f6e2d322e737667" alt="GitHub" width="40" height="40"/>
 </p>
 
+## Base de datos (en principio)
+
+```mermaid
+erDiagram
+    entrenamientos {
+        int id
+        text Ejercicios
+        int fecha_id
+        timestamp created_at
+        timestamp updated_at
+    }
+    equipos {
+        int id
+        string Nombre
+        string Categoria
+        int  user_id
+        timestamp created_at
+        timestamp updated_at
+    }
+    fechas {
+        int id
+        int Tipo
+        Date Dia
+        string Inicio
+        string Final
+        int equipo_id
+        timestamp created_at
+        timestamp updated_at
+    }
+    jugadores{
+        int id
+        string Nombre
+        int Dorsal
+        string Posicion
+        string Notas
+        int Minutos
+        int Amarillas
+        int Rojas
+        int Goles
+        int Asistencias
+        int equipo_id
+        timestamp created_at
+        timestamp updated_at
+    }
+    partidos{
+        int id
+        string Rival
+        int fecha_id
+        timestamp created_at
+        timestamp updated_at
+    }
+    users{
+        int id
+        string name
+        string email
+        text password
+        timestamp created_at
+        timestamp updated_at
+    }
+    fechas ||--o{ entrenamientos : "id"
+    users ||--o{ equipos : "id"
+    equipos ||--o{ fechas : "id"
+    equipos ||--o{ jugadores : "id"
+    fechas ||--o{ partidos : "id"
+```
+
 ## Estado del proyecto 📝
 
 Por comenzar ⌛
@@ -27,8 +95,7 @@ Si surge algún problema con la aplicación, me lo puedes comunicar en docejavii
 
 ## Autor
 
-<a href="https://github.com/javiidoce"> Javier Melendo <a/> <br>
-<img src="https://github.com/javiidoce/TFGv2/assets/116526601/3f997216-443d-49fe-b8f4-ed32a9c6044a" width="100" height="100">
+<a href="https://github.com/javiidoce"> Javier Melendo </a>
 
 ## Licencia ⚡
 
