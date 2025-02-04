@@ -1,10 +1,10 @@
 <p align="center"><a href="https://github.com/javiidoce/tfgDam" target="_blank"><img src="https://i.imgur.com/8TcOm6o.jpeg" width="400" alt="Logo"></a></p>
 
-## CoachHub
+# CoachHub
 
 CoachHub es una aplicación web la cual trata de hacerle la vida más facil a los entrenadores que desean llevar el análisis de datos al siguiente nivel y optimizar el rendimiento de sus equipos. Quiero que la aplicación permita a un entrenador facilitarle varias acciones como ver los partidos que vienen, guardarse las instrucciones tácticas, programar entrenamientos y observar estadísticas.
 
-Características principales:
+## Características principales:
 
 - Recopilación de datos eficaz y sencilla.
 - Creación de ejercicios (pizarra digital).
