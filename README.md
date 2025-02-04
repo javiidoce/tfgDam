@@ -12,7 +12,7 @@ Características principales:
 
 ## Tecnologías usadas (en principio)
 <p align="left"> <img src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Bash" width="40" height="40"/>  
-<img src="https://cdn.worldvectorlogo.com/logos/android-logomark.svg" alt="Android Studio" width="40" height="40"/> 
+<img src="https://cdn.worldvectorlogo.com/logos/android-4.svg" alt="Android Studio" width="40" height="40"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
 <img src="https://camo.githubusercontent.com/4965c61569069e46775836d78ee63f6cc0d8bac40bb2a0e638fe682e5aa18a95/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6769746875622d69636f6e2d322e737667" alt="GitHub" width="40" height="40"/>
 </p>
